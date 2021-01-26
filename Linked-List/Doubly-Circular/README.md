@@ -7,13 +7,22 @@
 
 ## Example
 Append number from 1 to 4  
+---
 head|head->next|head->next->next|head->next->next->next|
 -|-|-|-|
 1|2|3|4|  
----
+
 head|head->prev|head->prev->prev|head->prev->prev->prev|
 -|-|-|-|
 1|4|3|2|
-
-`head=insertList(head,6,2)
+---
+`head=insertList(head,6,2);
 `
+head|head->next|head->next->next|head->next->next->next|head->next->next->next->next|
+-|-|-|-|-|
+1|2|6|3|4|  
+
+head|head->prev|head->prev->prev|head->prev->prev->prev|head->prev->prev->prev|
+-|-|-|-|-|
+1|4|3|6|2|
+---
