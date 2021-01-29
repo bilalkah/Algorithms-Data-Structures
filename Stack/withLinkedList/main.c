@@ -19,6 +19,7 @@ bool isFull(stack *);
 int peek(stack *);
 stack *push(stack *, int);
 stack *pop(stack *, int *);
+void emptyStack(stack *);
 
 int main()
 {
@@ -130,4 +131,19 @@ stack *pop(stack *LIFO, int *val)
     free(p);
     count--;
     return LIFO;
+}
+
+/**
+ * @brief Clear stack
+ * 
+ * @param LIFO 
+ * @return void* 
+ */
+void emptyStack(stack *LIFO){
+    stack *p;
+    while(LIFO){
+        p=LIFO;
+        LIFO=LIFO->next;
+        free(p);
+    }
 }
