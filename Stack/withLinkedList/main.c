@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+//Size of stack
 #define MAX 6
 
 typedef struct Stack
@@ -10,6 +11,7 @@ typedef struct Stack
     struct Stack *next;
 } stack;
 
+//Number of element in stack
 static int count;
 
 bool isEmpty(stack *);
