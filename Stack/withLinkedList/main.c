@@ -34,7 +34,7 @@ int main()
     LIFO = push(LIFO, 20);
     LIFO = push(LIFO, 16);
 
-    printf("Peek from stack: %d\n",peek(LIFO));
+    printf("Peek from stack: %d\n", peek(LIFO));
     LIFO = push(LIFO, 37);
 
     while (!isEmpty(LIFO))
@@ -139,11 +139,13 @@ stack *pop(stack *LIFO, int *val)
  * @param LIFO 
  * @return void* 
  */
-void emptyStack(stack *LIFO){
+void emptyStack(stack *LIFO)
+{
     stack *p;
-    while(LIFO){
-        p=LIFO;
-        LIFO=LIFO->next;
+    while (LIFO)
+    {
+        p = LIFO;
+        LIFO = LIFO->next;
         free(p);
     }
 }

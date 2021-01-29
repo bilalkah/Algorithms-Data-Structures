@@ -6,3 +6,11 @@ Overview of the repository
 ## Linked List
 - Single
 - Doubly-Circular
+
+## Stack
+- with Linked List
+- with Stack
+
+## Queue
+- with Linked List
+- with Array

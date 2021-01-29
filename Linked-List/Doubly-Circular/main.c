@@ -102,7 +102,8 @@ node *appendList(node *head, int value)
  */
 node *insertList(node *head, int value, int where)
 {
-    if(head==NULL){
+    if (head == NULL)
+    {
         printf("List is empty!!\n");
         return head;
     }
