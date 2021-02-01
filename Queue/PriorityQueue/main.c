@@ -1,53 +1,52 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #define SIZE 15
 
 static int size;
 
-void swap(int *val1, int *val2);
-void maxHeapify(int array[], int index);
-void minHeapify(int array[], int index);
-void insert(int array[], int value);
-int extract(int array[]);
-void increaseKey(int array[], int index, int amount);
-void decreaseKey(int array[], int index, int amount);
-int peek(int array[]);
-void delete (int array[], int index);
-void printQueue(int array[]);
+void swap(int *, int *);
+void maxHeapify(int[], int);
+void minHeapify(int[], int);
+void insert(int[], int);
+int extract(int[]);
+void increaseKey(int[], int, int);
+void decreaseKey(int[], int, int);
+int peek(int[]);
+void delete (int[], int);
+void printQueue(int[]);
 
 int main()
 {
 
     static int queue[SIZE];
-    
-    insert(queue,60);
-    insert(queue,15);
-    insert(queue,70);
-    insert(queue,91);
-    insert(queue,5);
-    insert(queue,74);
-    insert(queue,48);
-    insert(queue,5);
+
+    insert(queue, 60);
+    insert(queue, 15);
+    insert(queue, 70);
+    insert(queue, 91);
+    insert(queue, 5);
+    insert(queue, 74);
+    insert(queue, 48);
+    insert(queue, 5);
 
     printQueue(queue);
 
-    increaseKey(queue,2,21);
-    decreaseKey(queue,1,60);
+    increaseKey(queue, 2, 21);
+    decreaseKey(queue, 1, 60);
 
     printQueue(queue);
 
-    printf("Extract : %d\n",extract(queue));
-    printf("Extract : %d\n",extract(queue));
+    printf("Extract : %d\n", extract(queue));
+    printf("Extract : %d\n", extract(queue));
 
     printQueue(queue);
 
-    insert(queue,2);
-    insert(queue,100);
+    insert(queue, 2);
+    insert(queue, 100);
 
     printQueue(queue);
 
-    delete(queue,2);
+    delete (queue, 2);
     printQueue(queue);
 
     return 0;

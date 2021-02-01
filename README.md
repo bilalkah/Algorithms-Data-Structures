@@ -14,3 +14,6 @@ Overview of the repository
 ## Queue
 - with Linked List
 - with Array
+- Priority Queue with Array
+
+## Hash Table
