@@ -1,4 +1,4 @@
-# Prioriy Queue with Array
+# Prioriy Queue with Heap Data Structure
 - void swap(int *val1, int *val2) : Swap values between two variable via reference.
 - void maxHeapify(int array[], int index) : Builder of Max-Priority Queue. Compares child nodes with parent and swap value between bigger child and parent.
 - void minHeapify(int array[], int index) : Builder of Min-Priority Queue. Compares child node with parent and swap value between smaller child and parent.
