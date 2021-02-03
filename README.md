@@ -17,3 +17,6 @@ Overview of the repository
 - Priority Queue with Array
 
 ## Hash Table
+
+## Tree
+- Binary Tree
