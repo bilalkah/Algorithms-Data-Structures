@@ -1,0 +1,19 @@
+|Istanbul	|Paris	|Berlin |6	|15	|300
+|Istanbul	|Paris	|Atina |7	|0	|320
+|Istanbul	|Paris	|Atina Londra |8	|10	|395
+|Istanbul	|Paris	|Berlin Helsinki |19	|20	|750
+
+|Istanbul	|Helsinki	|Berlin |11	|10	|450
+|Istanbul	|Helsinki	|Berlin Paris |14	|25	|600
+|Istanbul	|Helsinki	|Atina Paris |15	|10	|620
+
+|Londra	|Istanbul	|Atina |6	|30	|295
+|Londra	|Istanbul	|Paris Berlin |7	|55	|400
+|Londra	|Istanbul	|Paris Atina |8	|40	|420
+|Londra	|Istanbul	|Atina Paris Berlin |15	|5	|675
+|Londra	|Istanbul	|Atina Paris Atina |15	|50	|695
+|Londra	|Istanbul	|Paris Helsinki Berlin |21	|0	|850
+
+|Istanbul	|Berlin	|None|5	|0	|200
+|Istanbul	|Berlin	|Atina Paris |9	|15	|420
+
